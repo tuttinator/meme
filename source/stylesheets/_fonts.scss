@@ -1,1 +1,7 @@
-
+@font-face {
+    font-family: 'Stag-Serif-Book';
+    src: url('../font/StagWeb-Book.eot'); /* IE9 Compat Modes */
+    src: local('☺'), url('../fonts/StagWeb-Book.eot?#iefix') format('embedded-opentype'),url('../fonts/StagWeb-Book.woff') format('woff'),url('../fonts/StagWeb-Book.ttf') format('truetype'),url('../fonts/StagWeb-Book.svg#svgStag-Serif-Book') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
