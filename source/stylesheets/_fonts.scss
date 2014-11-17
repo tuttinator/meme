@@ -5,3 +5,20 @@
     font-weight: bold;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'Stag-Serif-Medium';
+    src: url('../font/StagWeb-Medium.eot'); /* IE9 Compat Modes */
+    src: local('☺'), url('../fonts/StagWeb-Medium.eot?#iefix') format('embedded-opentype'),url('../fonts/StagWeb-Medium.woff') format('woff'),url('../fonts/StagWeb-Medium.ttf') format('truetype'),url('../fonts/StagWeb-Medium.svg#svgStag-Serif-Medium') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Stag-Serif-Light';
+    src: url('../font/StagWeb-Light.eot'); /* IE9 Compat Modes */
+    src: local('☺'), url('../fonts/StagWeb-Light.eot?#iefix') format('embedded-opentype'),url('../fonts/StagWeb-Light.woff') format('woff'),url('../fonts/StagWeb-Light.ttf') format('truetype'),url('../fonts/StagWeb-Light.svg#svgStag-Serif-Light') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}

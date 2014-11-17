@@ -6,10 +6,10 @@ var MEME_SETTINGS = {
 
   // Universal font family for texts:
   // Note that you'll need to included quoted font names as you would in CSS, ie: '"Knockout 28 B"'.
-  fontFamily: 'Helvetica Neue',
+  fontFamily: 'Stag-Serif-Book',
   // Font family options: set to empty array to disable font selector.
   // These options may also be formatted as {text:'Knockout', value:'"Knockout 28 B"'}.
-  fontFamilyOpts: [{text:'Stag Serif Book', value:'Stag-Serif-Book'}, 'Arial', 'Helvetica Neue'],
+  fontFamilyOpts: [{text:'Stag Serif Light', value:'Stag-Serif-Light'}, {text:'Stag Serif Book', value:'Stag-Serif-Book'}, {text:'Stag Serif Medium', value:'Stag-Serif-Medium'}, 'Arial', 'Helvetica Neue'],
 
   // Font size of main headline:
   fontSize: 24,
@@ -47,8 +47,8 @@ var MEME_SETTINGS = {
   watermarkMaxWidthRatio: 0.25, // Maximum allowed width of watermark (percentage of total canvas width).
 
   // Path to the watermark image source, or blank for no watermark:
-  // Alternatively, use '<%= asset_data_uri("vox.png") %>' to populate the watermark with base64 data, avoiding Cross-Origin issues.
-  watermarkSrc: (localStorage && localStorage.getItem('meme_watermark')) || '<%= image_path("nzh.png") %>',
+  // Alternatively, use '<%= asset_data_uri("nzh.png") %>' to populate the watermark with base64 data, avoiding Cross-Origin issues.
+  watermarkSrc: '<%= image_path("nzh.png") %>',
 
   // Watermark image options: set to empty array to disable watermark picker.
   // NOTE: only populate the "data" attributes with base64 data when concerned about Cross-Origin requests...
